@@ -141,26 +141,6 @@ img {
     .logo {
         width: 160px;
         height: 160px;
-    }
-    .name {
-        font-size: 30px;
-    }
-    
-    .description {
-        font-size: 20px;
-    }
-    .link {
-        font-size: 24px;
-    }
-}
-
-@media screen and (max-width: 361px){
-    .wrapper {
-        width: 360px;
-    }
-    .logo {
-        width: 160px;
-        height: 160px;
         top: 64%;
         left: calc(50% - 80px);
     }
@@ -173,6 +153,12 @@ img {
     }
     .link {
         font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 361px){
+    .wrapper {
+        width: 360px;
     }
 }
 
