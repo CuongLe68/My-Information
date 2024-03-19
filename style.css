@@ -30,13 +30,13 @@ img {
 }
 
 .logo {
-    width: 170px;
-    height: 170px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     overflow: hidden;
     position: absolute;
     top: 62%;
-    left: calc(50% - 85px);
+    left: calc(50% - 80px);
 }
 
 .logo img {
@@ -51,7 +51,7 @@ img {
 }
 
 .name {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 600;
 }
 
@@ -83,7 +83,7 @@ img {
 
 .link {
     padding-left: 30px;
-    font-size: 24px;
+    font-size: 22px;
     letter-spacing: 0.2px;
     color: black;
 }
@@ -112,7 +112,7 @@ img {
 
 .bank-name,.bank-number
 ,.bank-description {
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     padding-bottom: 10px;
 }
