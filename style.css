@@ -122,22 +122,6 @@ img {
     .wrapper {
         width: 414px;
     }
-    .name {
-        font-size: 32px;
-    }
-    
-    .description {
-        font-size: 22px;
-    }
-    .link {
-        font-size: 26px;
-    }
-}
-
-@media screen and (max-width: 394px){
-    .wrapper {
-        width: 393px;
-    }
     .logo {
         width: 160px;
         height: 160px;
@@ -153,6 +137,12 @@ img {
     }
     .link {
         font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 394px){
+    .wrapper {
+        width: 393px;
     }
 }
 
