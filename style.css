@@ -12,9 +12,11 @@ img {
     background-position: center;
 }
 
-/*css*/
+/*css with 540*/
 .wrapper {
-    width: 540px;
+    width: 100%;
+    min-width: 280px;
+    max-width: 540px;
     margin: auto;
 }
 
@@ -115,4 +117,39 @@ img {
     font-size: 26px;
     text-align: center;
     padding-bottom: 10px;
+}
+@media screen and(max-width: 541px){
+    .wrapper {
+        width: 540px;
+    }
+}
+
+@media screen and(max-width: 415px){
+    .wrapper {
+        width: 414px;
+    }
+}
+
+@media screen and(max-width: 394px){
+    .wrapper {
+        width: 393px;
+    }
+}
+
+@media screen and(max-width: 376px){
+    .wrapper {
+        width: 375px;
+    }
+}
+
+@media screen and(max-width: 361px){
+    .wrapper {
+        width: 360px;
+    }
+}
+
+@media screen and(max-width: 281px){
+    .wrapper {
+        width: 280px;
+    }
 }
