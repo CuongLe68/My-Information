@@ -118,7 +118,7 @@ img {
 }
 
 /* reponsitory */
-@media screen and (max-width: 415px){
+/* @media screen and (max-width: 415px){
     .wrapper {
         width: 414px;
     }
@@ -146,4 +146,4 @@ img {
     .wrapper {
         width: 280px;
     }
-}
+} */
