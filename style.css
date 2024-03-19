@@ -51,12 +51,12 @@ img {
 }
 
 .name {
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 600;
 }
 
 .description {
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 10px;
 }
 
@@ -83,7 +83,7 @@ img {
 
 .link {
     padding-left: 30px;
-    font-size: 26px;
+    font-size: 24px;
     letter-spacing: 0.2px;
     color: black;
 }
@@ -112,13 +112,13 @@ img {
 
 .bank-name,.bank-number
 ,.bank-description {
-    font-size: 26px;
+    font-size: 24px;
     text-align: center;
     padding-bottom: 10px;
 }
 
 /* reponsitory */
-/* @media screen and (max-width: 415px){
+@media screen and (max-width: 380px){
     .wrapper {
         width: 414px;
     }
@@ -138,22 +138,22 @@ img {
     .link {
         font-size: 22px;
     }
-} */
+}
 
-/* @media screen and (max-width: 394px){
+@media screen and (max-width: 394px){
     .wrapper {
         width: 393px;
     }
-} */
+} 
 
-/* @media screen and (max-width: 361px){
+@media screen and (max-width: 361px){
     .wrapper {
         width: 360px;
     }
-} */
+}
 
-/* @media screen and (max-width: 281px){
+@media screen and (max-width: 281px){
     .wrapper {
         width: 280px;
     }
-} */
+}
