@@ -118,9 +118,23 @@ img {
 }
 
 /* reponsitory */
-/* @media screen and (max-width: 415px){
+ @media screen and (max-width: 415px){
     .wrapper {
         width: 414px;
+    }
+    .logo {
+        width: 165px;
+        height: 165px;
+    }
+    .name {
+        font-size: 32px;
+    }
+    
+    .description {
+        font-size: 22px;
+    }
+    .link {
+        font-size: 26px;
     }
 }
 
@@ -128,11 +142,19 @@ img {
     .wrapper {
         width: 393px;
     }
-}
-
-@media screen and (max-width: 376px){
-    .wrapper {
-        width: 375px;
+    .logo {
+        width: 160px;
+        height: 160px;
+    }
+    .name {
+        font-size: 30px;
+    }
+    
+    .description {
+        font-size: 20px;
+    }
+    .link {
+        font-size: 24px;
     }
 }
 
@@ -140,10 +162,24 @@ img {
     .wrapper {
         width: 360px;
     }
+    .logo {
+        width: 155px;
+        height: 155px;
+    }
+    .name {
+        font-size: 28px;
+    }
+    
+    .description {
+        font-size: 20px;
+    }
+    .link {
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 281px){
     .wrapper {
         width: 280px;
     }
-} */
+}
