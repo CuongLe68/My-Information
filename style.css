@@ -14,9 +14,7 @@ img {
 
 /*css with 540*/
 .wrapper {
-    width: 100%;
-    min-width: 280px;
-    max-width: 540px;
+    width: 540px;
     margin: auto;
 }
 
@@ -118,37 +116,33 @@ img {
     text-align: center;
     padding-bottom: 10px;
 }
-@media screen and(max-width: 541px){
-    .wrapper {
-        width: 540px;
-    }
-}
 
-@media screen and(max-width: 415px){
+/* reponsitory */
+@media screen and (max-width: 415px){
     .wrapper {
         width: 414px;
     }
 }
 
-@media screen and(max-width: 394px){
+@media screen and (max-width: 394px){
     .wrapper {
         width: 393px;
     }
 }
 
-@media screen and(max-width: 376px){
+@media screen and (max-width: 376px){
     .wrapper {
         width: 375px;
     }
 }
 
-@media screen and(max-width: 361px){
+@media screen and (max-width: 361px){
     .wrapper {
         width: 360px;
     }
 }
 
-@media screen and(max-width: 281px){
+@media screen and (max-width: 281px){
     .wrapper {
         width: 280px;
     }
