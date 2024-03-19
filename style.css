@@ -30,12 +30,12 @@ img {
 }
 
 .logo {
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     overflow: hidden;
     position: absolute;
-    top: 62%;
+    top: 58%;
     left: calc(50% - 80px);
 }
 
@@ -51,12 +51,12 @@ img {
 }
 
 .name {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 600;
 }
 
 .description {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 10px;
 }
 
@@ -83,7 +83,7 @@ img {
 
 .link {
     padding-left: 30px;
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 0.2px;
     color: black;
 }
