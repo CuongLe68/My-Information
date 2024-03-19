@@ -122,10 +122,6 @@ img {
     .wrapper {
         width: 414px;
     }
-    .logo {
-        width: 165px;
-        height: 165px;
-    }
     .name {
         font-size: 32px;
     }
@@ -163,18 +159,20 @@ img {
         width: 360px;
     }
     .logo {
-        width: 155px;
-        height: 155px;
+        width: 160px;
+        height: 160px;
+        top: 64%;
+        left: calc(50% - 80px);
     }
     .name {
-        font-size: 28px;
+        font-size: 26px;
     }
     
     .description {
-        font-size: 20px;
+        font-size: 18px;
     }
     .link {
-        font-size: 24px;
+        font-size: 22px;
     }
 }
 
