@@ -37,7 +37,7 @@ img {
     position: absolute;
     top: 58%;
     left: calc(50% - 80px);
-    border: 1px solid #fff;
+    border: 2px solid #fff;
 }
 
 .logo img {
