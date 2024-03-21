@@ -37,6 +37,7 @@ img {
     position: absolute;
     top: 58%;
     left: calc(50% - 80px);
+    border: 1px solid #fff;
 }
 
 .logo img {
@@ -203,7 +204,7 @@ img {
 .shop-line {
     font-size: 24px;
     margin: 0 8px;
-    color: #FD8F52;
+    color: #929292;
 }
 
 .shop-price-before {
