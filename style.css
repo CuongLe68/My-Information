@@ -38,7 +38,7 @@ img {
     border-radius: 50%;
     overflow: hidden;
     position: absolute;
-    top: 58%;
+    top: 57%;
     left: calc(50% - 80px);
     border: 2px solid #fff;
 }
