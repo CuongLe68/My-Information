@@ -55,12 +55,7 @@ img {
 }
 
 .background {
-    max-width: 414px;
-}
-
-.background {
     width: 100%;
-    max-width: 414px;
     height: auto;
     position: fixed;
     top: 0;
@@ -150,4 +145,34 @@ img {
     text-align: center;
     padding-bottom: 10px;
     color: #695353;
+}
+
+@media screen and (max-width: 391px) {
+    .wrapper {
+        width: 390px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .wrapper {
+        width: 375px;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .wrapper {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .wrapper {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 281px) {
+    .wrapper {
+        width: 280px;
+    }
 }
