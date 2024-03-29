@@ -1,9 +1,11 @@
 /*Reset css*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     text-decoration: none;
+    font-family: "Montserrat", sans-serif;
 }
 
 img {
@@ -16,6 +18,7 @@ img {
 .wrapper {
     width: 414px;
     margin: auto;
+    background-color: rgb(0, 0, 0, 10%);
 }
 
 .header {
@@ -45,58 +48,46 @@ img {
     height: 100%;
 }
 
-.info {
-    margin-top: 80px;
+/*body*/
+.container {
+    position: relative;
     width: 100%;
+}
+
+.background {
+    width: 100%;
+    max-width: 414px;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.info {
+    width: auto;
+    padding: 14px 0;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+    margin: 80px 20px 0;
+    border-radius: 20px;
 }
 
 .name {
     font-size: 24px;
     font-weight: 600;
+    color: #695353;
 }
 
 .description {
     font-size: 16px;
     margin-top: 10px;
+    color: #695353;
 }   
 
 .body {
     width: 100%;
     padding: 30px 20px 20px;
-}
-
-/* side bar*/
-.sidebar {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-.btn {
-    
-    padding: 10px 26px;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: 600;
-    cursor: pointer;
-    background-color: white;
-    color: #333;
-    border: 1px solid #FE676E;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.btn:hover {
-    cursor: pointer;
-    opacity: 0.8;
-}
-
-.btn-active {
-    background: linear-gradient(to right, #FE676E, #FD8F52);
-    color: white;
-    border: 1px solid transparent;
 }
 
 /* about */
@@ -109,18 +100,20 @@ img {
     align-items: center;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
 }
 
 .icon {
     width: 40px;
     height: 40px;
+    border-radius: 50%;
 }
 
 .link {
     padding-left: 30px;
     font-size: 18px;
     letter-spacing: 0.2px;
-    color: black;
+    color: #695353;
 }
 
 .bank {
@@ -133,6 +126,7 @@ img {
     align-items: center;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
 }
 
 .bank-type {
@@ -143,6 +137,7 @@ img {
 .bank-qr {
     width: 80%;
     height: auto;
+    margin-bottom: 10px;
 }
 
 .bank-name,.bank-number
@@ -150,83 +145,5 @@ img {
     font-size: 20px;
     text-align: center;
     padding-bottom: 10px;
-}
-
-/* shop */
-.shop {
-    width: 100%;
-    padding: 0 10px;
-    display: none;
-}
-
-.shop-contact {
-    font-size: 16px;
-    font-style: italic;
-    margin-bottom: 10px;
-}
-
-.shop-item {
-    width: 100%;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    padding: 14px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-}
-
-.shop-img {
-    width: 240px;
-    height: auto;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.shop-name {
-    width: 100%;
-    margin-top: 20px;
-    font-size: 18px;
-    text-align: left;
-}
-
-.shop-price {
-    width: 100%;
-    display: flex;
-    margin-top: 10px;
-    font-size: 18px;
-    text-align: left;
-    color: #EE4D2D;
-}
-
-.shop-line {
-    font-size: 24px;
-    margin: 0 8px;
-    color: #929292;
-}
-
-.shop-price-before {
-    color: #929292;
-    text-decoration: line-through;
-}
-
-/* reponsitory */
-@media screen and (max-width: 394px){
-    .wrapper {
-        width: 393px;
-    }
-} 
-
-@media screen and (max-width: 361px){
-    .wrapper {
-        width: 360px;
-    }
-}
-
-@media screen and (max-width: 281px){
-    .wrapper {
-        width: 280px;
-    }
+    color: #695353;
 }
